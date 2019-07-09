@@ -29,7 +29,7 @@ def int_to_en(num):
             return int_to_en(num // f) + ' thousand ' + int_to_en(num % f)
 
 while True:
-    num = int(input("-Please enter an integer between 1 and 9999: "))
+    num = int(input("- Introduce un numero del 1 al 9999: "))
     print("------------------------------------------------")
     print("-", int_to_en(num))
     print("------------------------------------------------")
